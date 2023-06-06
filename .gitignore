@@ -1,4 +1,6 @@
 # VSCode files
 .vscode/*
 # Executables
-*.exe 
+*.exe
+# Output files
+output/*
