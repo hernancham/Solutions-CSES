@@ -5,9 +5,7 @@ using namespace std;
 void hanoi(int n, int origen, int auxiliar, int destino)
 {
     if (n == 1)
-    {
         cout << origen << " " << destino << endl;
-    }
     else
     {
         hanoi(n - 1, origen, destino, auxiliar);
