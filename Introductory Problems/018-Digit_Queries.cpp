@@ -1,10 +1,10 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 int main()
 {
-	long long q = 10, k, dig, pot_10, piv;
+	int64_t q = 10, k, dig, pot_10, piv;
 	string tex;
 	cin >> q;
 	while (q--)
